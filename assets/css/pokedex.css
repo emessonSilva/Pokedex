@@ -1,3 +1,52 @@
+h1 {
+    animation: blink 8s infinite;
+    margin-left: 10px;
+}
+@keyframes blink {
+    0% {
+        color: #678fee; 
+    }
+    10% {
+        color: #a040a0; 
+    }
+    20% {
+        color: #6e5896; 
+    }
+    30% {
+        color: #6f38f6; 
+    }
+    40% {
+        color: #725847; 
+    }
+    50% {
+        color: #77c850; 
+    }
+    60% {
+        color: #a8b720; 
+    }
+    70% {
+        color: #f9aec7; 
+    }
+    80% {
+        color: #bf3029; 
+    }
+    90% {
+        color: #ee7f30; 
+    }
+    100% {
+        color: #f7cf2e; 
+    }
+}
+
+
+#searchInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
 
 .pokemons {
     display: grid;
@@ -70,7 +119,7 @@
     margin: .25rem 0;
     font-size: .625rem;
     color: #fff;
-    background-color: #6c79db;
+    background-color: red;
     border: none;
     border-radius: 1rem;
 }
